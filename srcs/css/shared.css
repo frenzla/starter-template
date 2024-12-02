@@ -1,0 +1,35 @@
+/*shared.css*/
+
+:root {
+  /*Colors setting*/
+  --dark: #121212;
+  --secDark: #282828;
+  --thiDark: #575757;
+  --light: #edf0cf;
+  --svgLight: invert(93%) sepia(14%) saturate(373%) hue-rotate(23deg)
+    brightness(104%) contrast(88%);
+  /*Font setting*/
+  --priorityHigh: invert(31%) sepia(85%) saturate(1491%) hue-rotate(340deg)
+    brightness(97%) contrast(91%);
+  --priorityMedium: invert(82%) sepia(93%) saturate(4381%) hue-rotate(329deg)
+    brightness(98%) contrast(88%);
+  --priorityLow: invert(87%) sepia(55%) saturate(4276%) hue-rotate(58deg)
+    brightness(96%) contrast(89%);
+  --text_font: "Arial";
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+  font-family: var(--text_font);
+}
+
+#content {
+  padding: 20px 50px;
+}
+
+#page-title {
+  padding: 10px 30px;
+  font-size: 3em;
+  font-weight: 900;
+}
